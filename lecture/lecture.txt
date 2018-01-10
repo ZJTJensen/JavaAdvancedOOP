@@ -1,0 +1,30 @@
+Weirdness (advanced OOP)
+
+Polymorphism-
+--Used very infrequently
+States tgat objeccts can be treated like their super or parent class (you can only go up the chain).
+The object will be treated like its parent
+
+Abstraction- Hiding data from users, and only provides functionality.
+	Interfaces- Define wha actions/ methods a class should have. They contain blank method definitions.
+	We are required to make all methods from the interface. 
+	All methods inside are blank.(only have return type the name and the args)
+	can be useful to distinquish what classes relate to one another.
+	can not be instatiated. You can implement as many interfaces as needed. 
+	
+
+	Abstract Classes- Classes with some or no blank/ abstract methods.
+	Used asa  base/ parent class and any that inheirts/ extends it must implement 
+	any of its abstract methods. can not be instantiated due to the fact that 
+	they may contain babstract methods. (I.E Animal should be a abstract class when
+	making a class for animals like cat and dog)
+
+	POJOS(plain old java objects)
+	Instantaions of java objects. any time you used the nw keywor 
+	followed by the name of your class, you created	a POJO
+
+	Java Bean (Nearly  POJO)
+	3 Minor differences
+		1. Meebrs must be riate and require setter and getter for each
+		2. A blank constructor
+		3. Must implement serializable interface
